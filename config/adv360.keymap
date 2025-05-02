@@ -21,6 +21,15 @@
         };
     };
 
+    macros {
+        open_bitwarden: open_bitwarden {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE) &kp B &kp I &kp T &kp W &kp A &kp R &kp D &kp E &kp N &kp ENTER>;
+            label = "OPEN_BITWARDEN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
